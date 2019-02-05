@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutP"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/gps1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:width="100dp"
+            android:gravity="center_vertical"
+            android:text="@string/GPS1"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/getg1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="20dp"
+            android:width="50dp"
+            android:background="@drawable/edit"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:inputType="text"
+            android:hint="A"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:id="@+id/gps2"
+            android:text="@string/GPS2"
+            android:width="100dp"
+            android:gravity="center_vertical" />
+
+        <EditText
+            android:id="@+id/getg2"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:width="50dp"
+            android:textSize="30sp"
+            android:inputType="text"
+            android:hint="B"
+            android:background="@drawable/edit"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:id="@+id/gps3"
+            android:text="@string/GPS3"
+            android:width="100dp"
+            android:gravity="center_vertical" />
+
+        <EditText
+            android:id="@+id/getg3"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:width="50dp"
+            android:textSize="30sp"
+            android:inputType="text"
+            android:hint="C"
+            android:background="@drawable/edit"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:id="@+id/gps4"
+            android:text="@string/GPS4"
+            android:width="100dp"
+            android:gravity="center_vertical" />
+
+        <EditText
+            android:id="@+id/getg4"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:width="50dp"
+            android:textSize="30sp"
+            android:inputType="text"
+            android:hint="C-"
+            android:background="@drawable/edit"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="30sp"
+            android:id="@+id/gps5"
+            android:text="@string/GPS5"
+            android:width="100dp"
+            android:gravity="center_vertical" />
+
+        <EditText
+            android:id="@+id/getg5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="start"
+            android:gravity="center"
+            android:width="50dp"
+            android:textSize="30sp"
+            android:inputType="text"
+            android:hint="D"
+            android:background="@drawable/edit"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bnGPS"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:background="@color/magenta"
+        android:text="@string/calculateGPS" />
+
+    <TextView
+        android:id="@+id/txGPS"
+        android:layout_width="170dp"
+        android:layout_height="66dp"
+        android:textSize="40sp"
+        android:text="RESULTS" />
+
+
+</LinearLayout>

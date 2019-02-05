@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GPA_perezm42_Calculator</string>
+    <string name="GPS1">Grade1</string>
+    <string name="GPS2">Grade2</string>
+    <string name="GPS3">Grade3</string>
+    <string name="GPS4">Grade4</string>
+    <string name="GPS5">Grade5</string>
+    <string name="Clear">Clear form</string>
+    <string name="calculateGPS">Compute GPA</string>
+</resources>
